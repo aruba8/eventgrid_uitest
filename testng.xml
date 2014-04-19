@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <parameter name="url" value="https://app.stable.eventgrid.com/Account/Login"/>
+    <parameter name="email" value="erikstb@yandex.ru"/>
+    <parameter name="password" value="12345678"/>
+    <parameter name="img" value="/Users/erik/Pictures/tmp/email.png"/>
+
+    <test name="Regression1">
+        <classes>
+            <class name="tests.CreateProductTest"/>
+        </classes>
+    </test>
+</suite>
