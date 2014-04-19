@@ -2,6 +2,7 @@
 
 * Java 1.7
 * Maven 3
+
 ####Iin `testng.xml` specify parameter `img` with value = path to image for product.
 ####Before start test all products and categories should be deleted
 
